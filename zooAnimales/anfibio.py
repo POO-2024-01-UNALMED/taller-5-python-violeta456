@@ -24,7 +24,7 @@ class Anfibio(Animal):
         return Anfibio(nombre,edad,"selva",genero,"negro y amarillo",False)
 
     @classmethod
-    def cantidadAnfibio(cls):
+    def cantidadAnfibios(cls):
         return len(cls._listado)
 
     
