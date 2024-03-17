@@ -19,7 +19,7 @@ class Animal():
         return "desplazarce"
     
     @classmethod
-    def totalPorTipo():
+    def totalPorTipo(cls):
         return "Mamiferos:",Mamifero.cantidadMamiferos(),"\n", "Aves:",Ave.cantidadAves(),"\n","Reptiles:",Reptil.cantidadReptiles(),"\n","Peces:",Pez.cantidadPeces(),"\n","Anfibios:",Anfibio.cantidadAnfibios()
     def toString(self):
         if self._zonas!=None:

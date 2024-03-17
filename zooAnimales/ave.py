@@ -19,7 +19,7 @@ class Ave(Animal):
         return Ave(nombre,edad,"montanas",genero,"cafe glorioso")
     @classmethod
     def crearAguila(cls,nombre,edad,genero,):
-        cls.Aguila+=1
+        cls.aguilas+=1
         return Ave(nombre,edad,"montanas",genero,"blanco y amarillo")
 
     @classmethod
